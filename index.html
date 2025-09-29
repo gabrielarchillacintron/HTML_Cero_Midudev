@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Portfolio de Gabriel</title>
+        <meta name="description" content="Portfolio de Gabriel, estudiante de Ciencia e Ingenieria de Computacion en la Universidad de Puerto Rico Recinto de Mayaguez">
+        <meta property="og:title" content="Portfolio de Gabriel">
+        <meta property="og:description" content="Portfolio de Gabriel, estudiante de Ciencia e Ingenieria de Computacion en la Universidad de Puerto Rico Recinto de Mayaguez">
+        <meta property="og:image" content="imagenes/imagen1.png">
+        <meta property="og:image-alt" content="Portfolio de Gabriel">
+        <link rel="alternate" hreflang="es" href="index.html">
+        <link rel="canonical" href="index.html">
+        <meta name="robots" content="index, follow">
+        <link rel="icon" href="imagenes/imagen1.png" type="image/png">
+
+        <style></style>
+    </head>
+    <body>
+        <header>
+            <h1>Portfolio de Gabriel</h1> 
+            <nav>
+                <a href="#Experiencias">Experiencias</a>
+                <a href="#Proyectos">Proyectos</a>
+            </nav>
+        </header>
+
+        <main>
+            <a download="Logo" href="imagenes/imagen2.gif">
+                <img
+                    id="Logo"
+                    class="Logo"
+                    width="350"
+                    height="200"
+                    src="imagenes/imagen2.gif" 
+                    alt="Logo" 
+                    title="Logo"
+                >
+            </a>
+
+            <div>
+                <dialog id="dialogo">
+                    <h1>Dialogo</h1>
+                    <p>Este es un cuadro de dialogo.</p>
+                    <button id="cerrar">Cerrar</button>
+                </dialog>
+
+                <button id="abrir">Abrir Dialogo</button>
+
+                <script>
+                    window.abrir.addEventListener("click", () => {
+                        window.dialogo.showModal();
+                    })
+                    window.cerrar.addEventListener("click", () => {
+                        window.dialogo.close();
+                    })
+                </script>
+            </div>
+
+            <p>Educacion en <strong>Ciencia e Ingenieria de Computacion</strong> 
+            en la <strong>Universidad de Puerto rico Recinto de Mayaguez</strong>.
+            </p> 
+
+            <h2 id="Experiencias">Experiencias</h2>
+
+            <ul>
+                <li>Mayaguez Resort and Casino</li>
+                <li>Hotel Ponce Hilton</li>
+                <li>Costa Bahia Hotel</li>
+            </ul> 
+
+            <h2 id="Proyectos">Proyectos</h2>
+            <ul>
+                <li>Dinner Dash</li>
+                <li>Pacman</li>
+                <li>Hotel Management Page</li>
+                <li>Portfolio Page</li>
+            </ul>
+            <aside>
+                <h3>Tecnologias</h3>
+                <ul>
+                    <li>SQL</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Python</li>
+                    <li>C++</li>
+                </ul>
+            </aside>
+
+            <section>
+                <h2>Preguntas Frecuentes</h2>   
+                <details>
+                    <summary>¿Cual es tu comida favorita?</summary>
+                    <p>La asiática.</p>
+                </details>
+                <details>
+                    <summary>¿Cual es tu pasatiempo favorito?</summary>
+                    <p>Jugar videojuegos.</p>
+                </details>
+                <details>
+                    <summary>¿De donde eres?</summary>
+                    <p>De Ponce, Puerto Rico.</p>
+                </details>
+            </section>
+
+            <section>
+                <h2>Contactame</h2>
+                <form method="post" action="/">
+                    <fieldset>
+                        <legend>Formulario de contacto</legend>
+                        <div>
+                            <label>Nombre:
+                                <input type="text" name="nombre" required>
+                            </label>
+                        </div>
+                        <div>
+                            <label>Email:
+                                <input type="email" name="email" required>
+                            </label>
+                        </div>
+                        <div>
+                            <label>Mensaje:
+                                <textarea name="mensaje" required></textarea>
+                            </label>
+                        </div>
+                        <button type="submit">Enviar</button>
+                    </fieldset>
+                </form>
+            </section>
+
+            <h3>Contenido con el que se hizo el sitio</h6>
+            <iframe 
+                src="https://midu.dev/"
+                title="midu.dev" 
+                style="width:80%; aspect-ratio:16/9;">
+            </iframe>
+        </main>
+
+        <footer>
+            <p>Derechos Reservados &copy; Gabriel</p>
+        </footer>
+    </body>
+</html>
+
+        
