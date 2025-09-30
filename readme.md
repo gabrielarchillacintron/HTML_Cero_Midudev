@@ -7,6 +7,17 @@
         * [Etiquetas](#etiquetas)
         * [Atributos](#atributos)
     * [Estructura basica de un documento HTML](#estructura-basica-de-un-documento-html)
+    * [Semantica](#semantica)
+    * [Enlaces](#enlaces)
+    * [Roles](#roles)
+    * [Descargas](#descargas)
+    * [Formularios](#formularios)
+        * [Datalist](#datalist)
+        * [Details y Summary](#details-y-summary)
+    * [Ventanas Emergentes](#ventanas-emergentes)
+        * [Dialog](#dialog)
+    * [Scripts](#scripts)
+        * [Ejemplo Basico](#ejemplo-basico)
 ___
 # HTML (Hypertext Markup Language)
 * Descripcion contenido = HTML
