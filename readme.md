@@ -172,8 +172,8 @@ Hay dos tipos de elementos:
         * lazy = carga el iframe cuando esta a punto de entrar en el viewport (visible para el usuario), pero no utilizar en iframes muy arriba de la pagina porquue puede producir un efecto de parpadeo al cargar el iframe
         * eager = carga el iframe inmediatamente
 
-    >[!WARNING]
-    >Cuidado con los allow ya que pueden ser un riesgo de seguridad si se permite todo. Es mejor especificar solo lo necesario.
+>[!WARNING]
+>Cuidado con los allow ya que pueden ser un riesgo de seguridad si se permite todo. Es mejor especificar solo lo necesario.
 
 >[!NOTE]
 >Existen paginas como [MDN Web Docs](https://developer.mozilla.org/es/) donde se puede consultar la documentacion de las etiquetas y sus atributos.
@@ -301,8 +301,8 @@ Ejemplos de uso de roles:
 ```
 El atributo download en la etiqueta `<a>` indica que el enlace es para descargar un archivo en lugar de navegar a el. El valor del atributo download puede ser el nombre con el que se guardara el archivo. Si no se especifica, se usara el nombre del archivo en la url.
 
->[!WARNING] <br>
-Solo funciona para archivos/recursos del mismo origen (misma pagina web). No funciona para enlaces externos.
+>[!WARNING]
+>Solo funciona para archivos/recursos del mismo origen (misma pagina web). No funciona para enlaces externos.
 
 ## Formularios
 ```HTML
