@@ -1,6 +1,6 @@
->[!NOTE] <br>
-Curso de HTML desde cero de Midudev <br>
-[Youtube](www.youtube.com/@midulive) | [Video](https://youtu.be/3nYLTiY5skU)
+>[!NOTE]
+>Curso de HTML desde cero de Midudev <br>
+>[Youtube](www.youtube.com/@midulive) | [Video](https://youtu.be/3nYLTiY5skU)
 # Indice
 * [HTML (Hypertext Markup Language)](#html-hypertext-markup-language)
     * [Elementos](#elementos)
@@ -172,15 +172,15 @@ Hay dos tipos de elementos:
         * lazy = carga el iframe cuando esta a punto de entrar en el viewport (visible para el usuario), pero no utilizar en iframes muy arriba de la pagina porquue puede producir un efecto de parpadeo al cargar el iframe
         * eager = carga el iframe inmediatamente
 
-    >[!WARNING] <br>
-    Cuidado con los allow ya que pueden ser un riesgo de seguridad si se permite todo. Es mejor especificar solo lo necesario.
+    >[!WARNING]
+    >Cuidado con los allow ya que pueden ser un riesgo de seguridad si se permite todo. Es mejor especificar solo lo necesario.
 
->[!NOTE] <br>
-Existen paginas como [MDN Web Docs](https://developer.mozilla.org/es/) donde se puede consultar la documentacion de las etiquetas y sus atributos.
-Para el caso de las imagenes, videos y iframes se recomienda utilizar `style="width:100%; aspect-ratio:radio de la imagen/video;"` para que sean responsive y mantengan la relacion de aspecto de la propia imagen/video.
+>[!NOTE]
+>Existen paginas como [MDN Web Docs](https://developer.mozilla.org/es/) donde se puede consultar la documentacion de las etiquetas y sus atributos.
+>Para el caso de las imagenes, videos y iframes se recomienda utilizar `style="width:100%; aspect-ratio:radio de la imagen/video;"` para que >sean responsive y mantengan la relacion de aspecto de la propia imagen/video.
 
->[!IMPORTANT] <br>
-Los navegadores tienen <strong>user agent stylesheets</strong> que son estilos por defecto que aplican a las etiquetas. Por esta razon se creo el <strong>css reset</strong> que elimina estos estilos por defecto. De igual manera se pueden <strong>sobreescribir</strong> estos estilos.
+>[!IMPORTANT]
+>Los navegadores tienen <strong>user agent stylesheets</strong> que son estilos por defecto que aplican a las etiquetas. Por esta razon se creo el <strong>css reset</strong> que elimina estos estilos por defecto. De igual manera se pueden <strong>sobreescribir</strong> estos estilos.
 
 ## Estructura basica de un documento HTML
 ```HTML
@@ -225,8 +225,8 @@ Los navegadores tienen <strong>user agent stylesheets</strong> que son estilos p
 * `style` = contiene estilos CSS internos
 * `body` = contiene el contenido visible de la pagina
 
->[!IMPORTANT] <br>
-Dentro del head se encuentran los metadatos que son informacion sobre la pagina web que no es visible para el usuario pero si para los motores de busqueda y navegadores. Los mencionados son algunos de los mas importantes.
+>[!IMPORTANT]
+>Dentro del head se encuentran los metadatos que son informacion sobre la pagina web que no es visible para el usuario pero si para los motores de busqueda y navegadores. Los mencionados son algunos de los mas importantes.
 
 ## Semantica
 La semantica en HTML se refiere al uso adecuado de las etiquetas para describir el contenido de la pagina web. <br>
@@ -337,8 +337,8 @@ El `div` se utiliza en este caso para apilar los elementos en bloque e igual sir
 Los `button` que estan dentro de un formulario por defecto son de tipo `submit`, pero es buena practica especificarlo. <br>
 Puedes definir patrones de validacion para los inputs con el atributo `pattern="expresion-regular"`.
 
->[!IMPORTANT] <br>
-Ambas formas de usar label son correctas. La primera es mas accesible ya que el atributo for vincula el label con el input mediante el id mientras que la segunda forma es mas comoda ya que no es necesario usar el id y el for, pero puede ser menos accesible. Mayormente es cuestion de preferencia.
+>[!IMPORTANT]
+>Ambas formas de usar label son correctas. La primera es mas accesible ya que el atributo for vincula el label con el input mediante el id mientras que la segunda forma es mas comoda ya que no es necesario usar el id y el for, pero puede ser menos accesible. Mayormente es cuestion de preferencia.
 
 ### Datalist
 ```HTML
